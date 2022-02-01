@@ -30,7 +30,6 @@ else {
 
 
 function switchTheme() {
-    const theme = $('#theme-link')
     if (theme.attr("href") == "light-theme.css") {
         document.cookie = "darkmode=true"
         setDarkTheme()
@@ -42,10 +41,12 @@ function switchTheme() {
 }
 
 function setLightTheme() {
+    const theme = $('#theme-link')
     theme.attr("href", "light-theme.css")
 }
 
 function setDarkTheme() {
+    const theme = $('#theme-link')
     theme.attr("href", "dark-theme.css") 
 }
 
