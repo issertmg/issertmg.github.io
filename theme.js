@@ -30,6 +30,7 @@ else {
 
 
 function switchTheme() {
+    const theme = $('#theme-link')
     if (theme.attr("href") == "light-theme.css") {
         document.cookie = "darkmode=true"
         setDarkTheme()
