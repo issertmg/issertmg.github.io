@@ -8,8 +8,12 @@
 // }
 var darkmode = getCookie("darkmode")
 
-if (darkmode == '')
+if (darkmode == '') {
     document.cookie = "darkmode=false"
+    console.log("here")
+    console.log(document.cookie)
+}
+    
 else {
     cookieArray = document.cookie.split(';')
 
