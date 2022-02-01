@@ -6,12 +6,18 @@
 //     // else
 //     //     theme.href = "light-theme.css"
 // }
+var darkmode = getCookie("darkmode")
 
-if (document.cookie == '')
+if (darkmode == '')
     document.cookie = "darkmode=false"
 else {
     cookieArray = document.cookie.split(';')
-    darkmodeValue = cookieArray[0].split('=')[1]
+
+    for (nameValue in cookieArray) {
+        if (cookieArray[0].split('=')[0] == "darkmode")
+            darkmodeValue = cookieArray[0].split('=')[1]
+    }
+
     if (darkmodeValue == "true")
         setDarkTheme()
     else
@@ -37,4 +43,19 @@ function setLightTheme() {
 
 function setDarkTheme() {
     theme.attr("href", "dark-theme.css") 
+}
+
+function getCookie(cname) {
+  let name = cname + "=";
+  let ca = document.cookie.split(';');
+  for(let i = 0; i < ca.length; i++) {
+    let c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  return "";
 }
