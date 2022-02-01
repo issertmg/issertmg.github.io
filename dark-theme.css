@@ -1,0 +1,31 @@
+body {
+  background-color: #111111  !important;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h1 {
+  font-family: "Source Sans Pro";
+  color: #e8e8e8;
+}
+
+h2 {
+  font-family: "Libre Franklin";
+  color: #e8e8e8;
+}
+
+p {
+  font-family: "Hind Vadodara";
+  color: #757575;
+}
+
+.nav-link {
+    font-family: "Titillium Web";
+    color: #e8e8e8 !important;
+}
+
+/*
+subheading text color: #6c6c6c
+*/

@@ -1,0 +1,62 @@
+body {
+  background-color: white !important;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h1 {
+  font-family: "Source Sans Pro";
+  color: #111111;
+}
+
+h2 {
+  font-family: "Libre Franklin";
+  color: #111111;
+}
+
+p {
+  font-family: "Hind Vadodara";
+  color: #363636;
+}
+
+.nav-link {
+  font-family: "Titillium Web";
+  color: #111111 !important;
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  h1 {
+    font-size: 20vw !important;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+  
+}
+
+/* XX-Large devices (larger desktops)
+/* No media query since the xxl breakpoint has no upper bound on its width
+
+
+/*
+subheading text color: #6c6c6c
+*/
