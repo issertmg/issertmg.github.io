@@ -9,8 +9,8 @@
 
 function switchTheme() {
     const theme = $('#theme-link')
-    if (theme.attr("href") == "/stylesheets/light-theme.css")
-        theme.attr("href", "/stylesheets/dark-theme.css") 
+    if (theme.attr("href") == "light-theme.css")
+        theme.attr("href", "dark-theme.css") 
     else
-        theme.attr("href", "/stylesheets/light-theme.css")
+        theme.attr("href", "light-theme.css")
 }
