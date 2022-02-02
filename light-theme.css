@@ -53,14 +53,14 @@ a:link {
   h1 {
     font-size: 20vw !important;
   }
-  .img-fluid {
-    max-width: 40% !important;
-  }
+  
 }
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
-
+  .img-fluid {
+    max-width: 40% !important;
+  }
 }
 
 /* Medium devices (tablets, less than 992px) */
