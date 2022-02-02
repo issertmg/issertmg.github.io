@@ -23,7 +23,7 @@ else {
     }
 
     if (darkmodeValue == "true") {
-        $('#theme-switch').prop('checked', true);
+        $('#switch-box').prop('checked', true);
         setDarkTheme()
     }
     else {
