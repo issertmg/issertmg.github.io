@@ -21,9 +21,31 @@ p {
   color: #363636;
 }
 
+li {
+  color: #505050;
+}
+
 .nav-link {
   font-family: "Titillium Web";
   color: #111111 !important;
+}
+
+a h5 {
+  color: #111111; /* blue colors for links too */
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.tile {
+  padding: 24px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #eaeaea;
+  background-color: #fafafa;
 }
 
 /* X-Small devices (portrait phones, less than 576px) */
@@ -31,11 +53,14 @@ p {
   h1 {
     font-size: 20vw !important;
   }
+  .img-fluid {
+    max-width: 40% !important;
+  }
 }
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
-  
+
 }
 
 /* Medium devices (tablets, less than 992px) */

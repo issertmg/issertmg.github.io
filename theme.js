@@ -22,10 +22,13 @@ else {
             darkmodeValue = cookieArray[0].split('=')[1]
     }
 
-    if (darkmodeValue == "true")
+    if (darkmodeValue == "true") {
+        $('#theme-switch').prop('checked', true);
         setDarkTheme()
-    else
+    }
+    else {
         setLightTheme()
+    }
 }
 
 
