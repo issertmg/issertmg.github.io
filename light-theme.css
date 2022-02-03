@@ -48,11 +48,20 @@ a:link {
   background-color: #fafafa;
 }
 
+#header {
+  border-width: 1px;
+  border-color:  #eaeaea;
+  border-style: solid;
+  padding: 12px;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(24px);
+}
+
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-  h1 {
+  /* h1 {
     font-size: 20vw !important;
-  }
+  } */
   
 }
 
